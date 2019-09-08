@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/destination_add_time"
-        android:name="com.msopensourcedev.timecalculator.main.AddTimeFragment"
+        android:name="com.msopensourcedev.timecalculator.main.addTIme.AddTimeFragment"
         android:label="fragment_add_time"
         tools:layout="@layout/fragment_add_time" />
     <fragment
         android:id="@+id/destination_logs"
-        android:name="com.msopensourcedev.timecalculator.main.LogsFragment"
+        android:name="com.msopensourcedev.timecalculator.main.logs.LogsFragment"
         android:label="fragment_logs"
         tools:layout="@layout/fragment_logs" />
     <fragment
         android:id="@+id/destination_settings"
-        android:name="com.msopensourcedev.timecalculator.main.SettingsFragment"
+        android:name="com.msopensourcedev.timecalculator.main.settings.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>
